@@ -1,0 +1,58 @@
+{
+    "tables":
+    [
+        {
+            "name" : "Person",
+            "position" : null,
+            "color" : "#fdfeee",
+            "fields" : 
+            [
+                {
+                    "name": "ID",
+                    "type" : "INT",
+                    "allowNul" : false,
+                    "reference": null
+                },
+                {
+                    "name": "NAME",
+                    "type" : "VARCHAR(30)",
+                    "allowNul" : false,
+                    "reference": null
+                },
+                {
+                    "name": "LASTNAME",
+                    "type" : "VARCHAR(30)",
+                    "allowNul" : false,
+                    "reference": null
+                },
+                {
+                    "name": "City",
+                    "type" : "INT",
+                    "allowNul" : true,
+                    "reference": "City"
+                }
+            ]
+        },
+        {
+            "name" : "City",
+            "position" : null,
+            "color" : "#fdfeee",
+            "fields" : 
+            [
+                {
+                    "name": "ID",
+                    "type" : "INT",
+                    "allowNul" : false,
+                    "reference": null
+                },
+                {
+                    "name": "NAME",
+                    "type" : "VARCHAR(30)",
+                    "allowNul" : false,
+                    "reference": null
+                }             
+            ]
+        }
+    ]
+
+}

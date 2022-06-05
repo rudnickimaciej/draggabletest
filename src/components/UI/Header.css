@@ -1,0 +1,14 @@
+.header{
+    height: 50px;
+    background-color: black;
+}
+
+.button-generate{
+    background-color:green;
+    float:right;
+    color:white;
+    height:100%;
+}
+.button-generate:hover{
+
+}
